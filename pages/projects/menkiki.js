@@ -75,17 +75,17 @@ const Work = () => (
         >
           <Image
             maxW={240}
-            src="/images/works/appstore.png"
+            src="/images/projects/appstore.png"
             className="image-appstore"
             alt="Download on App Store"
           />
         </Link>
       </Box>
 
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
+      <WorkImage src="/images/projects/menkiki_eyecatch.png" alt="menkiki" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
-        <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
+        <WorkImage src="/images/projects/menkiki_01.png" alt="menkiki" />
+        <WorkImage src="/images/projects/menkiki_02.png" alt="menkiki" />
       </SimpleGrid>
     </Container>
   </Layout>

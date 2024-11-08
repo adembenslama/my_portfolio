@@ -50,10 +50,10 @@ const Work = () => (
         ></iframe>
       </AspectRatio>
 
-      <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/projects/styly_eyecatch.png" alt="STYLY" />
+      <WorkImage src="/images/projects/styly_01.png" alt="STYLY" />
+      <WorkImage src="/images/projects/styly_02.png" alt="STYLY" />
+      <WorkImage src="/images/projects/styly_03.png" alt="STYLY" />
     </Container>
   </Layout>
 )

@@ -78,18 +78,17 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            My Work
+          </LinkItem>    <LinkItem href="/w" path={path}>
+            Projects
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
+          <LinkItem href="/ContactMe" path={path}>
+            Contact Me
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+      
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/Adembenslama"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -97,7 +96,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Github 
           </LinkItem>
         </Stack>
 
@@ -116,21 +115,17 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
+                <MenuItem as={MenuLink} href="/projects">
+                  projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
-                  Wallpapers
+                <MenuItem as={MenuLink} href="/ConatctMe">
+                  Contact Me
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem>
+             
+           
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/adembenslama"
                 >
                   View Source
                 </MenuItem>

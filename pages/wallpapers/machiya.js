@@ -23,7 +23,7 @@ const Wallpaper = () => (
         aesthetic charm of the Machiya, offering a tranquil backdrop that
         contrasts with the technical subject matter. Ideal for admirers of
         Japanese culture and coding enthusiasts, this collection brings a touch
-        of serene tradition to digital workspaces.
+        of serene tradition to digital projectspaces.
       </P>
 
       <Box
